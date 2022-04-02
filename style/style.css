@@ -678,3 +678,13 @@ a {
   }
   
 }
+
+.performance-container .performance-top-side img, 
+.awd-container .awd-top-side img,
+.range-container .range-left-side img  {
+  display: none;
+}
+
+
+
+
