@@ -1,0 +1,28 @@
+:root {
+  /* Hero */
+  --navbar-font-size: 14px;
+  --hero-heading-size: 40px;
+  --hero-heading-line-height: 48px;
+
+  /* General Section  */
+  --h3-font-size-section: 17px;
+  --h2-font-size-section: 28px;
+  --h3-line-height-section: 24px;
+  --h2-line-height-section: 36px;
+  --p-font-size-section: 14px;
+  --p-line-heignt-section: 20px;
+
+  /* Badge */
+  --badge-text-color: #fff;
+  --p-font-size-badge: 12px;
+  --p-line-height-badge: 18px;
+  --p-font-weight-badge: 400;
+  --h2-font-size-badge: 28px;
+  --h2-line-height-badge: 28px;
+  --h2-font-weight-badge: 500;
+  --h2-letter-spacing-badge: -0.5px; 
+  --span-font-size-badge: 24px;
+  --span-line-height-badge: 24px;
+  --span-font-weight-badge: 500;
+  --span-letter-spacing-badge: -0.6px;
+}

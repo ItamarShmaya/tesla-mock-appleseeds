@@ -1,0 +1,100 @@
+/* Hero Badge List */
+
+.hero .hero-heading {
+  font-size: 34px;
+}
+
+.hero .badge-list-wrapper {
+  padding-bottom: 100px;
+}
+
+.badge-list-wrapper .badge-list .badge-group h2 {
+  font-size: 20px;
+}
+
+.badge-list-wrapper .badge-list .badge-group span {
+  font-size: 20px;
+}
+
+.badge-list-wrapper .badge-list .badge-group p {
+  font-size: 10px;
+}
+
+.hero .model-3-container .badge-list,
+.hero .model-3-container .bottom-nav {
+  width: 327px;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+/* General Badge List */
+
+.badge-list-wrapper {
+  padding: 15px;
+  height: 400px;
+}
+.badge-list-wrapper .badge-list .badge-group {
+  width: 100px;
+}
+
+.badge-list-wrapper .badge-list .btn {
+  width: 327px;
+  margin-top: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+.badge-list-wrapper .badge-list .badge-group .desktop {
+  display: none;
+}
+
+.badge-list-wrapper .badge-list .badge-group .phone {
+  display: block;
+}
+
+/* Section Sturcture Row */
+
+.flex-items {
+  flex-direction: column;
+  height: auto;
+}
+.flex-items .left-side {
+  flex: 1;
+}
+.flex-items .right-side {
+  flex: 1;
+}
+
+
+/* Section Sturcture Column */
+
+.flex-items-col {
+  height: auto;
+}
+
+.flex-items-col .top-side {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-items-col .bottom-side {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+}
+
+.flex-items-col .bottom-side .bottom-side__right-side {
+  flex-direction: column;
+}
+
+/* Range */
+
+#range .range-right-side img {
+  display: none;
+}
+
+.chevron {
+  display: none;
+}
