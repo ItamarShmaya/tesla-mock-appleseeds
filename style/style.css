@@ -86,11 +86,14 @@ a {
 .order-now:hover {
   background: var(--btn-dark-border-color);
   color: var(--btn-light-text-color);
+  animation: bg-fade-in-dark ease 0.4s forwards;
 }
 
 .btn-light:hover {
   background: var(--btn-light-border-color);
   color: var(--btn-dark-text-color);
+  animation: bg-fade-in-light ease 0.4s forwards;
+  
 }
 
 /* Section Sturcture Row */
@@ -630,7 +633,8 @@ a {
   }
 }
 
-.animate-reveal-nav {
+.animate-reveal-nav,
+.animation-btn {
   animation: fade-in-place ease 0.4s forwards;
 }
 
@@ -679,6 +683,28 @@ a {
   
 }
 
+@keyframes bg-fade-in-dark {
+  from {
+    background-color: transparent;
+    color: var(--btn-dark-text-color);
+  }
+  to {
+    background: var(--btn-dark-border-color);
+    color: var(--btn-light-text-color);
+  }
+}
+@keyframes bg-fade-in-light {
+  from {
+    background-color: transparent;
+    color: var(--btn-light-text-color);
+  }
+  to {
+    background: var(--btn-light-border-color);
+    color: var(--btn-dark-text-color);
+  }
+}
+
+/* using background instead of img  */
 .performance-container .performance-top-side img, 
 .awd-container .awd-top-side img,
 .range-container .range-left-side img  {
